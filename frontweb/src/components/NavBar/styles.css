@@ -1,42 +1,56 @@
 .main-nav {
-  padding-left: 40px;
+  padding-left: 20px;
   min-height: 70px;
 }
 
-.nav-logo-text {
-   color: #00285F;
-   
-}
-
-.nav-logo-text h4 {
-  font-size: 28px;
-  font-weight: bold;  
- 
-}
-
+.nav-logo-text,
 .nav-logo-text:hover {
-  color: #00285F;
-  }
+  color: #00285f;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 40, 95, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 .main-menu {
   display: flex;
-  font-size: 21px;
-  width: 420px;
-  justify-content: space-between;
+  font-size: 18px;
+  justify-content: space-around;
 }
 
 .main-menu a {
-  font-weight: bold;
-  color: #00285F;
-  font-size: 21px; 
-}
-
-.main-menu a.active {
-  font-weight: bold;
-  font-size: 21px; 
+  color: #00285f;
 }
 
 .main-menu a:hover {
+  color: #335698;
+}
+
+.main-menu a.active {
+  color: #00285f;
   font-weight: bold;
-  font-size: 21px; 
+}
+
+@media (min-width: 576px) {
+  .main-nav {
+    padding-left: 88px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-menu {
+    width: 380px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ms-auto {
+    margin-right: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ms-auto {
+    margin-right: 400px;
+  }
 }

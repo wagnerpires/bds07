@@ -1,0 +1,37 @@
+.btn-container p {
+  width: 200px;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #585858;
+}
+
+.btn-info {
+  width: 175px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #00285f;
+  border-color: #00285f;
+}
+
+.btn-info:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #335698;
+  border-color: #335698;
+}
+
+@media (min-width: 576px) {
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  }
+
+  .btn-content p {
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+}

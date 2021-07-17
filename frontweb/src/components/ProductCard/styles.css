@@ -1,54 +1,45 @@
-.product-card {
-  margin-bottom: 30px;
-  background-color: #e1e1e1;
+.car-card {
+  margin: 10px 5px;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: #ededed;
+  padding: 14px 0px;
 }
 
-.card-top-container {
+.card-top {
   text-align: center;
-  padding: 10px 10px 10px 10px;
-  border-bottom: 1px solid #e1e1e1;
 }
 
-.card-top-container img {
-    width: 220px;
-    height: 165px;
-    left: 85px;
-    top: 267px;
+.card-top img {
+  width: 220px;
+  height: 165px;
 }
 
-.card-bottom-container {
-  padding: 15px 20px 30px 20px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+.car-bottom {
+  align-content: space-around;
+  padding: 10px;
+  text-align: center;
+}
+
+.car-bottom h6 {
   font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #000000;  
+  color: #000;
 }
 
-.card-bottom-container h6 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #000000;
+.car-bottom p {
+  font-size: 14px;
+  color: #585858;
+  padding: 20px 0;
 }
-.card-bottom-container-d {
-padding: 10px;
-width: 307px;
-height: 32px;
-left: 40px;
-top: 475px;
-font-style: italic;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-display: flex;
-align-items: center;
-color: #585858;
+
+.car-bottom button {
+  width: 90%;
+  height: 40px;
+  background: #00285f;
+  border-radius: 5px;
+}
+
+.car-bottom button h6 {
+  color: #fff;
+  font-size: 14px;
 }

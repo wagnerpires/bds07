@@ -1,0 +1,18 @@
+.home-car-search {
+  margin: 20px 5px;
+  padding: 20px 10px;
+   background: #ededed;
+   box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   display: flex;
+ }
+ 
+ .home-car-search input {
+   border-radius: 10px 0 0 10px;
+ }
+ 
+ .btn-search {
+   width: 85px;
+   height: 40px;
+   border-radius: 0px 10px 10px 0px;
+ }

@@ -1,0 +1,40 @@
+.input-group {
+  display: flex;
+  justify-content: center;
+  padding: 22px 14px 24px 10px;
+}
+
+.form-control {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.btn-search {
+  color: #ffffff;
+  padding-left: 10px;
+  background-color: #00285f;
+  border-color: #00285f;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.btn-search:hover,
+.btn-search:focus,
+.btn-search:active,
+.btn-search.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #335698;
+  border-color: #335698;
+}
+
+.card-search-container {
+  height: 86px;
+  margin-bottom: 20px;
+  background-color: #ededed;
+  box-shadow: none;
+}
+
+@media (min-width: 576px) {
+  .btn-search {
+    min-width: 175px;
+  }
+}
