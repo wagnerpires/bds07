@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02f36568-d3dd-4100-a78d-757921ff1535" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontweb/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontweb/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontweb/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontweb/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontweb/src/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontweb/src/Routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +23,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jvvillasb/desafio-carros-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="E:\Windows\Downloads\workspaces\ws-devsuperior\bds07\frontweb\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontweb/node_modules/typescript/lib" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,6 +38,7 @@
       <workItem from="1626396630347" duration="592000" />
       <workItem from="1626560097569" duration="23000" />
       <workItem from="1626566953033" duration="425000" />
+      <workItem from="1626569008270" duration="326000" />
     </task>
     <servers />
   </component>
@@ -57,5 +55,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

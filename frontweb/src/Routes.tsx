@@ -1,9 +1,7 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Catalog from "./pages/Catalog";
-import Home from "./pages/Home";
-
-
+import Navbar from "components/NavBar";
+import Catalog from "pages/Catalog";
+import Home from "pages/Home";
 
 const Routes = () => {
   return (
